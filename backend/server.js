@@ -37,7 +37,7 @@ app.get('/api/data', async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT || 8080;
 
 const distPath = path.join(__dirname, '../frontend/dist/');
 app.use(express.static(distPath));
